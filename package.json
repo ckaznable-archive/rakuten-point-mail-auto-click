@@ -2,6 +2,7 @@
   "name": "rakuten-email-auto-click",
   "version": "1.0.0",
   "description": "",
+  "repository": "https://github.com/kami8112/rakuten-point-mail-auto-click",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
