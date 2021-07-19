@@ -1,0 +1,19 @@
+{
+  "name": "rakuten-email-auto-click",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "type": "module",
+  "author": "kami25565@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "googleapis": "^39.2.0",
+    "jsdom": "^16.6.0",
+    "node-fetch": "^2.6.1",
+    "single-line-log": "^1.1.2"
+  }
+}
