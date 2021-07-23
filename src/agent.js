@@ -47,6 +47,10 @@ class Agent {
       userId: "me", id
     })
 
+    if(!res.data.payload.body.data) {
+      return ""
+    }
+
     const buff = Buffer.from(res.data.payload.body.data, 'base64')
     return buff.toString('ascii')
   }
